@@ -6,6 +6,7 @@
 #include <d3dcompiler.h>
 #include <DirectXCollision.h>
 #pragma comment(lib, "d3d11.lib")
+#pragma comment(lib, "D3DCompiler.lib")
 
 #include <wrl\client.h>
 #include <string>

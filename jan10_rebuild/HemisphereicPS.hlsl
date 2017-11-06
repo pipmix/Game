@@ -34,7 +34,7 @@ float3 CalcAmbient(float3 normal, float3 color){
 	return ambient * color;
 }
 
-float4 main(OutputVS input) : SV_TARGET0{
+float4 main(OutputVS input) : SV_TARGET{
 	
 	float3 diffuseColor = DiffuseTexture.Sample(ss, input.uv).rgb;
 	diffuseColor *= diffuseColor;
